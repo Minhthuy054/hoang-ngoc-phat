@@ -1,0 +1,172 @@
+.dwas_table table#flat_rate_boxes input, table#flat_rate_boxes select {
+    width: 100%
+}
+
+.dwas_table table#flat_rate_boxes td.sort_dwas_td {
+    cursor: move
+}
+
+.dwas_table table#flat_rate_boxes td, table#flat_rate_boxes th {
+    padding: 15px 10px;
+    vertical-align: top;
+    background: #fff
+}
+
+.dwas_table table#flat_rate_boxes tr:nth-child(even) td {
+    background: #fafafa
+}
+
+.dwas_table table#flat_rate_boxes .check-column {
+    width: 24px;
+    min-width: 24px !important;
+    text-align: center;
+    padding: 15px 10px
+}
+
+.dwas_table table#flat_rate_boxes .check-column input {
+    width: auto;
+    vertical-align: middle;
+    margin: 0
+}
+
+.dwas_table table#flat_rate_boxes .district_shipping_advance input[type="checkbox"] {
+    width: auto;
+}
+
+.district_shipping_advance {
+    margin: 5px 0 0;
+}
+
+.district_shipping_advance .dwas_price_list {
+    font-size: 11px;
+    padding: 2px 0;
+}
+
+.dwas_hidden {
+    display: none !important;
+}
+
+.dwas_show {
+    display: block !important;
+}
+
+.dwas_price_list {
+    display: table;
+    vertical-align: top;
+    width: 100%;
+}
+
+.dwas_price_list_tr {
+    display: table-row;
+}
+
+.dwas_price_list_td {
+    display: table-cell;
+    padding: 2px;
+    vertical-align: top;
+}
+
+.dwas_price_list_tfoot {
+    text-align: right;
+}
+
+a.dwas_delete_condition {
+    line-height: 26px;
+    font-size: 19px;
+    padding-left: 5px;
+}
+
+.all_condition_district, .all_condition_district_w {
+    max-width: 826px;
+}
+
+.district_shipping_advance.all_condition_district,
+.district_shipping_advance.all_condition_district_w {
+    position: relative;
+}
+
+.district_shipping_advance.all_condition_district.loading:before,
+.district_shipping_advance.all_condition_district_w.loading:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.all_condition_district .dwas_price_list_tfoot a,
+.all_condition_district_w .dwas_price_list_tfoot a {
+    display: inline-block;
+    padding: 5px 12px;
+    background: #0085ba;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+.all_condition_district .dwas_price_list_tfoot,
+.all_condition_district_w .dwas_price_list_tfoot {
+    margin: 10px 0 0;
+}
+
+.all_condition_district a,
+.all_condition_district_w a {
+    text-decoration: none;
+}
+
+.sort_dwas_td {
+    text-align: center;
+}
+
+.icon_sort_dwas:before {
+    content: '\f333';
+    font-family: Dashicons;
+    text-align: center;
+    color: #999;
+    display: inline-block;
+    height: 100%;
+    line-height: 24px;
+    font-size: 20px;
+}
+
+table.form-table.dwas_table #flat_rate_boxes .chosen_select {
+    width: 300px;
+    max-width: 100%;
+}
+
+.woocommerce table.form-table.dwas_table #flat_rate_boxes .select2-container {
+    min-width: inherit !important;
+}
+
+.dwas_table table#flat_rate_boxes .district_shipping_disable input {
+    width: auto;
+}
+
+.district_shipping_advance_weight input.shipping_advance_w {
+    width: auto !important;
+}
+
+.district_shipping_advance.all_condition_district .dwas_price_list.dwas_show,
+.district_shipping_advance.all_condition_district_w .dwas_price_list.dwas_show {
+    display: table !important;
+    width: 100%;
+}
+
+.dwas_price_list_td select {
+    padding: 0 !important;
+    height: 33px;
+}
+
+#order_data .order_data_column p.form-field._billing_address_1_field,
+#order_data .order_data_column .form-field._shipping_address_1_field {
+    width: 100%;
+}
+
+.post-type-shop_order .select2-container .select2-search__field {
+    min-width: inherit;
+}

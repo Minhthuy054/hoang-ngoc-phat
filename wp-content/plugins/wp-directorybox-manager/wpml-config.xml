@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<wpml-config>
+	<custom-types>
+		<custom-type translate="1">listings</custom-type>
+ 		<custom-type translate="1">listing-type</custom-type>
+		<custom-type translate="0">wp_dp_claims</custom-type>
+		<custom-type translate="0">listing-alert</custom-type>
+		<custom-type translate="0">dp-templates</custom-type>
+		<custom-type translate="0">notifications</custom-type>
+		<custom-type translate="0">wp-dp-trans</custom-type>
+		<custom-type translate="0">package-orders</custom-type>
+		<custom-type translate="1">wp_dp_reviews</custom-type>
+		<custom-type translate="0">packages</custom-type>
+		<custom-type translate="1">wp-dp-pt</custom-type>
+		<custom-type translate="0">members</custom-type>
+	</custom-types>
+	<taxonomies>
+		<taxonomy translate="1">wp_dp_locations</taxonomy>
+		<taxonomy translate="1">listing-category</taxonomy>
+	</taxonomies>
+</wpml-config>

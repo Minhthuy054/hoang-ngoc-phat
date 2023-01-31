@@ -1,0 +1,92 @@
+.hpc-hidden{display: none;}
+
+li.wc_payment_method>label>img {
+    max-height: 20px;
+    max-width: 120px;
+}
+
+.power_by {
+    opacity: 0.68;
+}
+.list-bank {
+    max-width: 90px !important;
+}
+
+.list-bank-box{
+    background: #fff !important;
+    margin-bottom: 4px;
+    margin-right: 4px;
+    border: 1px solid #ccc;
+}
+
+.list-bank img {
+    object-fit: contain;
+    margin: 0px !important;
+}
+.hpc-status{
+    padding: 5px;
+    height: 20px;
+    display: inline-block;
+}
+.hpc-badge{
+    padding: 3px;
+    background: gray;
+    color:#fff;
+}
+.bank-logo{
+    margin:auto;
+    max-width: 200px!important;
+    display: block
+}
+.mpay-order-detail{
+    border: 1px solid #dadada;
+    padding: 10px;
+    background: #fefefe;
+    display: inline-block;
+    width: 100%;
+}
+.mpay-col-left{float: left;}
+.mpay-col-left .bck-bank-icon{margin-right: 10px;}
+
+.mpay-success{
+    text-align: center;
+}
+.mpay-success img{
+    margin: auto !important;
+    display: block;
+    padding-bottom: 10px;
+}
+/**
+    admin
+*/
+td .bck-bank-icon{
+    max-width: 30px;
+}
+.bck-notice{
+    float: left;
+    display: inline-block;
+    width: 98%;
+}
+.bck-notice, .bck-notice p{
+    font-size: 18px;
+}
+[name="bck-setting-form"] *{
+    font-size: 15px !important;
+}
+[name="bck-setting-form"] ul{
+    list-style-type: disc;
+    padding-left: 20px;
+}
+.bck-notice ul{
+    margin-left: 20px;
+}
+.bck-notice ul li{
+    list-style: disc;
+}
+.bck-error-tip{
+    color: red;font-weight: bold;
+    padding: 10px;background: #ffffbb;border: 1px solid;border-radius: 5px;
+}
+.bck-bank-icon{
+    max-width: 100px;
+}

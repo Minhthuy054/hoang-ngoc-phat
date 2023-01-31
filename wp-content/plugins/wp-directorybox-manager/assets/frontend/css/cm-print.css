@@ -1,0 +1,103 @@
+@media print {
+*,  *:before, enter code here  *:after { color: #000 !important; text-shadow: none !important; background: transparent !important; -webkit-box-shadow: none !important; box-shadow: none !important; }
+a,  a:visited { text-decoration: underline; }
+a[href]:after { content: " (" attr(href) ")"; }
+abbr[title]:after { content: " (" attr(title) ")"; }
+a[href^="#"]:after,  a[href^="javascript:"]:after { content: ""; }
+pre,  blockquote { border: 1px solid #999; page-break-inside: avoid; }
+thead { display: table-header-group; }
+tr,  img { page-break-inside: avoid; }
+img { max-width: 100% !important; }
+p,  h2,  h3 { orphans: 3; widows: 3; }
+h2,  h3 { page-break-after: avoid; }
+select { background: #fff !important; }
+.navbar { display: none; }
+.btn > .caret,  .dropup > .btn > .caret { border-top-color: #000 !important; }
+.label { border: 1px solid #000; }
+.table { border-collapse: collapse !important; }
+.table td,  .table th { background-color: #fff !important; }
+.table-bordered th,  .table-bordered td { border: 1px solid #ddd !important; }
+
+@page{size:  portrait;margin:0 -6mm;}
+html{margin:0 15mm;}
+body {-webkit-print-color-adjust: exact;}
+.print-order-detail h2, .print-order-detail h2 a, .print-order-detail h2 { margin: 0; float: left; color: #2f313a; letter-spacing: 1px; font-weight: 400; font-size: 20px !important; line-height: 20px !important; }
+.print-order-detail h2, .print-order-detail h3 { width: 100%; float: none; display: block; line-height: 26px !important; vertical-align: middle; margin-right: 20px; margin-bottom: 20px; }
+.print-order-detail input[type="text"], .print-order-detail input[type="email"], .print-order-detail input[type="password"] { border-color: #d1d3d8; color: #9097a1; border-radius: 3px; font-size: 14px; height: 42px; letter-spacing: 1px; margin: 0 0 20px; padding: 0 0 0 35px; }
+.print-order-detail h3 { font: 700 Normal 16px/22px "Montserrat", sans-serif !important; letter-spacing: 0 !important; margin-bottom: 6px; }
+.menu-order-detail.menu-order-info .modal-dialog .order-detail-options + h3 { border-top: 1px solid #ebedf3; margin-top: 20px; padding-top: 20px; }
+.print-order-detail .order-detail li { margin-bottom: 15px; }
+.print-order-detail .order-detail li:after { content: ''; display: table; line-height: 0; clear: both; }
+.print-order-detail .order-detail li strong { width: 150px; line-height: 22px; float: left; letter-spacing: 0; color: #2f313a; font-size: 12px; text-transform: uppercase; }
+.print-order-detail .order-detail li strong + span { font-size: 14px; line-height: 22px; width: calc(100% - 150px); padding-left: 10px; float: left; display: block; }
+.print-order-detail .order-status-holder, .print-order-detail .booking-status-holder { margin: 20px 0; }
+.print-order-detail .order-status-holder h3, .print-order-detail .booking-status-holder h3 { margin-bottom: 0;display:inline-block;vertical-align:middle; width:auto;margin-right:2px;}
+.print-order-detail .order-status-holder [class*="col-lg"], .print-order-detail .booking-status-holder [class*="col-lg"] { vertical-align: middle; }
+.print-order-detail .order-status-holder .order-status{display:inline-block;vertical-align:middle;}
+.print-order-detail .order-status-holder p, .print-order-detail .booking-status-holder p { margin-bottom: 0; color: #fff; background: #c33332; padding: 10px; text-align: center; border-radius: 6px; }
+.print-order-detail .order-detail-options li { display: block; margin-bottom: 4px; }
+.print-order-detail .order-detail-options li:after { content: ''; display: table; line-height: 0; clear: both; }
+.print-order-detail .order-detail-options.order-total li { border-bottom: 1px solid #eaedf2; padding-bottom: 6px; margin: 0 0 6px 0; }
+.print-order-detail .order-detail-options.order-total li:last-child { border-bottom: 0; padding: 0; margin: 0; }
+.print-order-detail .order-detail-options.order-total li.total-price strong, .print-order-detail .order-detail-options.order-total li.total-price span { color: #2e323e; font-weight: 700; }
+.print-order-detail .order-detail-options.order-total li strong, .print-order-detail .order-detail-options.order-total li span { color: #767676; font-weight: 600; }
+.print-order-detail .order-detail-options.order-total li span { float: right; }
+.print-order-detail .order-detail-options li strong { line-height: 22px; float: left; letter-spacing: 0; color: #777777; font-size: 12px; text-transform: uppercase; font-weight: normal; margin-right: 10px; }
+.print-order-detail .order-detail-options li strong + span { font-size: 14px; line-height: 22px; padding-left: 0; float: left; display: block; color: #313139; }
+.print-order-detail .customer-detail-holder ul li { display: block; width: 100%; margin-bottom: 10px; }
+.print-order-detail .customer-detail-holder ul li:after { content: ''; display: table; line-height: 0; clear: both; }
+.print-order-detail .customer-detail-holder ul li strong { line-height: 22px; float: left; letter-spacing: 0; color: #2f313a; font-size: 12px; text-transform: uppercase; width: auto; }
+.print-order-detail .customer-detail-holder ul li strong + span { font-size: 14px; line-height: 22px; padding-left: 10px; float: left; display: inline-block; }
+.print-order-detail .description-holder .heading { color: #000; margin: 15px 0; font-size: 14px; }
+.print-order-detail .categories-order h4 { font-size: 14px !important; line-height: 20px !important; margin-bottom: 0; }
+.print-order-detail .categories-order h4 + h5 { font-size: 11px !important; float: left; margin-bottom: 0; color: #a2a2a2 !important; line-height: 14px !important; font-weight: 400 !important; }
+.print-order-detail ul.categories-order.table-generic > li:first-child { background: #fafafa; }
+.print-order-detail ul.categories-order.table-generic > li:first-child > div:last-child { text-align: right; }
+.print-order-detail ul.categories-order.table-generic > li:nth-child(even) > div, ul.categories-order.table-generic > li:nth-child(odd) > div, .print-order-detail ul.categories-order.table-generic > li:nth-child(even), ul.categories-order.table-generic > li:nth-child(odd) { background-color: transparent; }
+.print-order-detail ul.categories-order.table-generic li.order-heading-titles ul li { color: #31313b; }
+.print-order-detail ul.categories-order.table-generic li.order-heading-titles ul li:last-child { margin-bottom: 0; }
+.print-order-detail ul.categories-order.table-generic li.order-heading-titles > div { padding: 12px 15px; }
+.print-order-detail .description-holder ul { clear: both; }
+.print-order-detail .order-status-holder:after { content: ''; display: table; line-height: 0; clear: both; }
+.print-order-detail .order-status-holder .status-loader { float: right; display: block; margin-top: 13px; }
+.print-order-detail .order-status-holder .input-field .status-loader { position: absolute; right: 28px; margin: 0; top: 8px; background: #fff; }
+.print-order-detail .order-status-holder .heading { float: left; }
+.print-order-detail .reviews-holder { padding: 0; }
+.reviews-holder .total-rating h4 { font-size: 14px !important; line-height: 22px !important; letter-spacing: 0; }
+.print-order-detail .categories-order { margin-bottom: 15px; }
+.print-order-detail .categories-order li:after { content: ''; display: table; line-height: 0; clear: both; }
+.print-order-detail .extras-detail-options { margin-bottom: 20px; }
+.print-order-detail .extras-detail-selected { margin-bottom: 15px; }
+.print-order-detail .extras-detail-main { margin-top: 20px; }
+.print-order-detail .extras-btns-holder:after { content: ''; display: table; clear: both; line-height: 0; }
+.print-order-detail .menu-selection-container button { float: left; width: auto; background-color: #c33332; border: none; display: block; border-radius: 3px; color: #fff; font-family: 'Montserrat', sans-serif; font-size: 12px; font-weight: 700; letter-spacing: 1px; line-height: normal; padding: 12px 10px; text-transform: uppercase; text-align: center; }
+.print-order-detail .menu-selection-container .reset-menu-fields { float: right; padding: 12px 10px; font-size: 12px; font-family: 'Montserrat', sans-serif; background-color: #c33332; color: #fff; font-weight: 700; line-height: 13px; letter-spacing: 1px; text-transform: uppercase; }
+.print-order-detail .newsletter .field-holder input, .print-order-detail .newsletter input[type="text"], .print-order-detail .newsletter input[type="email"], .print-order-detail .newsletter input[type="password"][type="text"] { height: 41px; border-color: #d1d3d8; padding-left: 15px; font-size: 14px; }
+.print-order-detail .newsletter input[type="button"] { background-color: #c33332; width: 100%; border: none; display: block; border-radius: 3px; color: #fff; font-family: 'Montserrat', sans-serif; font-size: 12px; font-weight: 700; letter-spacing: 1px; line-height: normal; padding: 12px 10px; text-transform: uppercase; text-align: center; }
+.print-order-detail .overall-rating .rating-star { width: 108px; }
+.print-order-detail .customer-detail-holder ul li strong { color: #777777; font-weight: normal; }
+.print-order-detail .customer-detail-holder ul li strong + span { color: #303136; }
+.user-dashboard .print-order-detail .login-form .input-filed input[type="text"][type="text"] { padding: 0 0 0 15px; }
+.print-order-detail .order-detail-inner [class*="col-lg-6"]{width:345.500px;display:block;float:left;margin:0;}
+.print-order-detail .order-detail-options li, .print-order-detail .order-detail-options.order-total li{margin-right:0;list-style-position:inside;border-right:0;list-style-type:none;}
+.print-order-detail ul.categories-order.table-generic li.order-heading-titles ul li{list-style-type:none;list-style-position:inside;}
+.print-order-detail .logo {text-align: center;margin: 50px 0;}
+.order-status-holder {margin: 40px 0;padding: 0 15px;clear:both;}
+.print-order-detail .order-detail-inner {border-top: 1px solid #e5e5e5; padding: 20px 0 0; margin-top: 20px;}
+.print-order-detail .description-holder .customer-detail-holder {margin-bottom: 0; padding-bottom: 0; border-bottom: 0;}
+.print-order-detail .description-holder ul li:after { content: ''; display: table; line-height: 0; clear: both;}
+.print-order-detail .description-holder ul li { display: block; margin: 0; margin-bottom: 4px; border: 0; padding: 0;}
+.print-order-detail .description-holder ul li strong { line-height: 22px; float: left; letter-spacing: 0; color: #777777; font-size: 12px; text-transform: uppercase;font-weight: normal; margin-right: 10px; width: auto;}
+.print-order-detail .description-holder ul li strong + span {font-size: 14px; line-height: 22px; padding-left: 0; float: left; display: block; color: #313139; margin-bottom: 0px; width: auto;}
+.print-order-detail ul.categories-order.table-generic > li:first-child > div:last-child { text-align: right;}
+.print-order-detail ul.categories-order.table-generic li.order-heading-titles > div ~ div {float: right;}
+.print-order-detail .order-detail-options.order-total li {border-bottom: 1px solid #eaedf2; padding-bottom: 6px; margin: 0 0 6px 0; padding-top: 0;}
+.print-order-detail .order-detail-options.order-total li:last-child {border-bottom: 0;padding: 0; margin: 0;}
+.print-order-detail .order-detail-options.order-total li span {float: right;}
+.print-order-detail .order-detail-options.order-total li.total-price strong, 
+.print-order-detail .order-detail-options.order-total li.total-price span {color: #2e323e; font-weight: 700;}
+.print-order-detail {padding-right:100px;}
+.print-order-detail ul.order-detail-options.order-total {width:33.333%; float:right;}
+.print-order-detail .table-generic > li > div {width:300px;}
+.print-order-detail .table-generic > li > div:not(:first-child) {text-align:right;}
+}

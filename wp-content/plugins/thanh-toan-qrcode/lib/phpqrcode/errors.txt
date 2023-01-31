@@ -1,0 +1,30 @@
+2021-12-21 07:41:58: <br />
+<b>Warning</b>:  strlen() expects parameter 1 to be string, array given in <b>D:\HoangData\xampp_htdocs\wp1\wp-content\plugins\bck-verify-bank-transfer\lib\phpqrcode\qrsplit.php</b> on line <b>250</b><br />
+<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>D:\HoangData\xampp_htdocs\wp1\wp-content\plugins\bck-verify-bank-transfer\lib\phpqrcode\qrinput.php</b> on line <b>522</b><br />
+<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>D:\HoangData\xampp_htdocs\wp1\wp-content\plugins\bck-verify-bank-transfer\lib\phpqrcode\qrinput.php</b> on line <b>522</b><br />
+<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>D:\HoangData\xampp_htdocs\wp1\wp-content\plugins\bck-verify-bank-transfer\lib\phpqrcode\qrinput.php</b> on line <b>594</b><br />
+<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>D:\HoangData\xampp_htdocs\wp1\wp-content\plugins\bck-verify-bank-transfer\lib\phpqrcode\qrinput.php</b> on line <b>688</b><br />
+2021-12-21 07:44:54: <br />
+<b>Warning</b>:  strlen() expects parameter 1 to be string, array given in <b>D:\HoangData\xampp_htdocs\wp1\wp-content\plugins\bck-verify-bank-transfer\lib\phpqrcode\qrsplit.php</b> on line <b>250</b><br />
+<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>D:\HoangData\xampp_htdocs\wp1\wp-content\plugins\bck-verify-bank-transfer\lib\phpqrcode\qrinput.php</b> on line <b>522</b><br />
+<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>D:\HoangData\xampp_htdocs\wp1\wp-content\plugins\bck-verify-bank-transfer\lib\phpqrcode\qrinput.php</b> on line <b>522</b><br />
+<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>D:\HoangData\xampp_htdocs\wp1\wp-content\plugins\bck-verify-bank-transfer\lib\phpqrcode\qrinput.php</b> on line <b>594</b><br />
+<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>D:\HoangData\xampp_htdocs\wp1\wp-content\plugins\bck-verify-bank-transfer\lib\phpqrcode\qrinput.php</b> on line <b>688</b><br />
+2021-12-21 08:25:30: <br />
+<b>Warning</b>:  strlen() expects parameter 1 to be string, array given in <b>D:\HoangData\xampp_htdocs\wp1\wp-content\plugins\bck-verify-bank-transfer\lib\phpqrcode\qrsplit.php</b> on line <b>250</b><br />
+<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>D:\HoangData\xampp_htdocs\wp1\wp-content\plugins\bck-verify-bank-transfer\lib\phpqrcode\qrinput.php</b> on line <b>522</b><br />
+<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>D:\HoangData\xampp_htdocs\wp1\wp-content\plugins\bck-verify-bank-transfer\lib\phpqrcode\qrinput.php</b> on line <b>522</b><br />
+<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>D:\HoangData\xampp_htdocs\wp1\wp-content\plugins\bck-verify-bank-transfer\lib\phpqrcode\qrinput.php</b> on line <b>594</b><br />
+<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>D:\HoangData\xampp_htdocs\wp1\wp-content\plugins\bck-verify-bank-transfer\lib\phpqrcode\qrinput.php</b> on line <b>688</b><br />
